@@ -77,7 +77,10 @@ public class PreparedStatementHandle extends StatementHandle implements
 		this.cache = cache;
 	}
 
-
+	public String toString()
+	{
+		return internalPreparedStatement.toString();
+	}
 
 	/**
 	 * {@inheritDoc}
